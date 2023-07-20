@@ -91,7 +91,7 @@ class StampDetails extends StatelessWidget {
 
              Expanded(
               child: ListView.separated(
-                itemCount: 5,
+                itemCount: 10,
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
                  separatorBuilder:(BuildContext context, index) {

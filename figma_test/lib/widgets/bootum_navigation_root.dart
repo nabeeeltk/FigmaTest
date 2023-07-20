@@ -1,3 +1,4 @@
+import 'package:figma_test/Screens/edit_profile_page.dart';
 import 'package:figma_test/Screens/home_Screen.dart';
 import 'package:figma_test/Screens/stamp_detials.dart';
 import 'package:flutter/material.dart';
@@ -16,13 +17,19 @@ int _selectindex= 0;
 final screens =[
   HomeScreen(),
   StampDetails(),
-  Container(),
+  EditProfilePage(),
   Container()
 ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.amber,
+     
+        onPressed: (){},
+      child: Icon(Icons.add,color: Colors.white,),),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       backgroundColor: Colors.white12,
       body: screens[_selectindex],
       bottomNavigationBar: Container(

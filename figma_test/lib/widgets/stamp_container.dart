@@ -23,6 +23,7 @@ class StampContainer extends StatelessWidget {
                 image: DecorationImage(
                     image: AssetImage("image/doctor3.jpg"), fit: BoxFit.cover)),
           );
+        
         },
       ),
     );
