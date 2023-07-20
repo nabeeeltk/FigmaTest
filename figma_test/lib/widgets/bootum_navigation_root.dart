@@ -38,9 +38,9 @@ final screens =[
             });
           },
           items:const  [
-            BottomNavigationBarItem(icon: Icon(Icons.home,),label:"Home" ),
+            BottomNavigationBarItem(icon: Icon(Icons.search,),label:"Searcg" ),
              BottomNavigationBarItem(icon: Icon(Icons.wallet,),label:"Massages" ),
-              BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline_rounded,),label:"Schadule" ),
+              BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline_rounded,),label:"Massages" ),
                BottomNavigationBarItem(icon: Icon(Icons.person,),label:"Setting" )
           ],
           ),
