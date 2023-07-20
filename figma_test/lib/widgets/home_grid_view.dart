@@ -37,7 +37,7 @@ class HomeGridView extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                            image: AssetImage('image/doctor3.jpg'), // Corrected image path
+                            image: AssetImage('image/image1.png'), // Corrected image path
                             fit: BoxFit.cover,
                           ),
                         ),
@@ -45,8 +45,7 @@ class HomeGridView extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                        ),
+                        "介護有料老人ホームひまわり倶楽部の介護職"),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -54,7 +53,7 @@ class HomeGridView extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
                             Text(
-                              "Lorem Ipsum",
+                              "介護付き有",
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.w500,
@@ -74,22 +73,19 @@ class HomeGridView extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(left: 8),
-                        child: Text("dfghjkldcvbnmfghjkl;vbn"),
+                        child: Text("介護付き有料老人ホーム"),
                       ),
                       SizedBox(
                         height: 5,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.only(left: 8),
-                        child: Text("dfghjkldcvbnmfghjkl;vbn"),
-                      ),
+                      
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: const [
                             Text(
-                              "Lorem Ipsum",
+                              "介護付き有料",
                               style: TextStyle(
                                 fontSize: 15,
                                

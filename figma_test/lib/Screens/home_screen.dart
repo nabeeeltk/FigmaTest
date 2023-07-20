@@ -1,4 +1,4 @@
-import 'package:figma_test/widgets/date_list_view.dart';
+
 import 'package:figma_test/widgets/home_grid_view.dart';
 import 'package:figma_test/widgets/search_widget.dart';
 import 'package:flutter/material.dart';
@@ -11,17 +11,17 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SearchBar(), // Assuming this is a custom widget for the search bar
+         const  SearchBar(), // Assuming this is a custom widget for the search bar
           Container(
             height: 40,
             width: double.infinity,
-            decoration: BoxDecoration(
+            decoration:const  BoxDecoration(
               gradient: LinearGradient(colors: [
                 Colors.amber,
                 Colors.orange
               ])
             ),
-            child: const Center(child: Text("...............")
+            child: const Center(child: Text("2022年 5月 26日（木）")
             ),
           ),
          const  SizedBox(height: 20,),

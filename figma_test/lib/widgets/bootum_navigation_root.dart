@@ -1,4 +1,5 @@
 import 'package:figma_test/Screens/home_Screen.dart';
+import 'package:figma_test/Screens/stamp_detials.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,7 +15,7 @@ class _NavbarRootState extends State<NavbarRoot> {
 int _selectindex= 0;
 final screens =[
   HomeScreen(),
-  Container(),
+  StampDetails(),
   Container(),
   Container()
 ];
