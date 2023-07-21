@@ -6,8 +6,14 @@ class ChatScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: Colors.white,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children:const [
+          Center(child: Text("Chat Screen",style: TextStyle(fontSize: 20),))
+        ],
+      ),
     );
   }
 }

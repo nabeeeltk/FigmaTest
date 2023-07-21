@@ -17,9 +17,11 @@ class SearchBar extends StatelessWidget {
             child: Center(
               child: TextField(
                 decoration: InputDecoration(
+                  
                     fillColor: Colors.grey,
                     filled: true,
                     border: OutlineInputBorder(
+                      
                         borderSide: BorderSide.none,
                         borderRadius: BorderRadius.circular(20)),
                     prefixIcon: Icon(Icons.search)),

@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-          child: Icon(
+        child: Icon(
             Icons.place,
             size: 40,
           ),
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
           onPressed: () {}),
       body: Column(
         children: [
-          const SearchBar(), // Assuming this is a custom widget for the search bar
+          const SearchBar(), 
           Container(
             height: 40,
             width: double.infinity,
@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                     child: Center(
                         child: Text(
                       date[index],
-                      style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
+                      style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
                     )),
                   );
                 }),
