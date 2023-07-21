@@ -26,7 +26,7 @@ class SearchBar extends StatelessWidget {
               ),
             ),
           )),
-          IconButton(onPressed: () {}, icon: Icon(Icons.filter_1_outlined)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
           IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
         ],
       ),

@@ -28,7 +28,7 @@ class StampDetails extends StatelessWidget {
                         radius: 25,
                         child: Center(child: Icon(Icons.arrow_back_ios,color: Colors.black,)),
                       )),
-                const   Text("スタンプカード詳細",style: TextStyle(fontSize:20,
+                const   Text("スタンプカード詳細",style: TextStyle(fontSize:20,color: Colors.white,
                 fontWeight: FontWeight.bold ),),
                   InkWell(
                       onTap: () {},
@@ -51,8 +51,8 @@ class StampDetails extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: const [Text("Mer キッチン",style: TextStyle(fontSize:15,
-                fontWeight: FontWeight.bold )), Text("現在の獲得数 30",style: TextStyle(fontSize:15,
+                children: const [Text("Mer キッチン",style: TextStyle(fontSize:15,color: Colors.white,
+                fontWeight: FontWeight.bold )), Text("現在の獲得数 30",style: TextStyle(fontSize:15,color: Colors.white,
                 fontWeight: FontWeight.bold ))],
               ),
             ),
@@ -61,7 +61,7 @@ class StampDetails extends StatelessWidget {
             ),
             Container(
               height: MediaQuery.of(context).size.height,
-              width: double.infinity,
+              width: MediaQuery.of(context).size.width,
               padding: const EdgeInsets.only(top: 20, left: 15),
               decoration: const BoxDecoration(
                   color: Colors.white,

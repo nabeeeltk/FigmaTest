@@ -9,6 +9,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+         child: Icon(Icons.place,size:40 ,),
+        backgroundColor: Colors.white,
+        onPressed: (){}),
       body: Column(
         children: [
          const  SearchBar(), // Assuming this is a custom widget for the search bar

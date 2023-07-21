@@ -17,8 +17,8 @@ int _selectindex= 0;
 final screens =[
   HomeScreen(),
   StampDetails(),
+  Container(),
   EditProfilePage(),
-  Container()
 ];
 
   @override
@@ -28,7 +28,14 @@ final screens =[
         backgroundColor: Colors.amber,
      
         onPressed: (){},
-      child: Icon(Icons.add,color: Colors.white,),),
+      child: Container(
+        height: 40,
+        width: 40,
+        decoration: BoxDecoration(
+          image: DecorationImage(image: AssetImage("image/scanericon.png",),
+          fit: BoxFit.cover)
+        ),
+      )),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       backgroundColor: Colors.white12,
       body: screens[_selectindex],
@@ -46,10 +53,10 @@ final screens =[
             });
           },
           items:const  [
-            BottomNavigationBarItem(icon: Icon(Icons.search,),label:"Searcg" ),
-             BottomNavigationBarItem(icon: Icon(Icons.wallet,),label:"Massages" ),
-              BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline_rounded,),label:"Massages" ),
-               BottomNavigationBarItem(icon: Icon(Icons.person,),label:"Setting" )
+            BottomNavigationBarItem(icon: Icon(Icons.search,),label:"さがす" ),
+             BottomNavigationBarItem(icon: Icon(Icons.badge,),label:"お仕事" ),
+              BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline_rounded,),label:"チャット" ),
+               BottomNavigationBarItem(icon: Icon(Icons.person,),label:"マイページ" )
           ],
           ),
           
